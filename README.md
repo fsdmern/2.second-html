@@ -1,0 +1,13 @@
+# This HTML consists of various tags by Category
+- Basic Elements
+- Formatting Elements
+- Forms and Input
+- Frames
+- Images
+- Audio Video
+- Links
+- Lists
+- Tables
+- Semantic/Structural
+- Meta Info
+- Programming
