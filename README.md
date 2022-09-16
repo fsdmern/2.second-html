@@ -2,8 +2,8 @@
 - Basic Elements
 - Formatting Elements
 - Forms and Input
-- Frames
-- Images
+- Frames (HTML5 doesnt support)
+- Images 
 - Audio Video
 - Links
 - Lists

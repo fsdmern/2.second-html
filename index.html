@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon svg" href="mern.svg" type="image/x-icon" />
+    <title>HTML Elements by Category</title>
+  </head>
+  <style>
+    p {
+      color: red;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+  <body>
+    <div class="main-container">
+      <div>
+        <h2>2. The following are Formatting Tags</h2>
+        <hr />
+        <ul>
+          <b>This is a bold tag</b>
+          <br /><br />
+          <strong>This is Strong Tag</strong
+          ><br /><br />
+          <i>Itallic text</i
+          ><br /><br />
+          <p>a <sup>2</sup> +b <sup>2</sup></p>
+          <p>log <sub>10</sub> + log <sub>2</sub></p>
+          <code>This is code block</code>
+          <blockquote>This is a block quote</blockquote>
+        </ul>
+      </div>
+      <div>
+        <h2>3. Forms Input Elements</h2>
+        <hr />
+        <h3>3a. Login Block</h3>
+        <hr />
+        <label for="3.1">
+          User Name
+          <input type="text" name="username" id="3.1" />
+        </label>
+        <br />
+        <br />
+        <label for="3.1"></label>
+        Password
+        <input type="text" name="pwd" id="pwd" />
+
+        <br />
+        <br />
+        <input type="button" value="Login" /><br />
+        <br />
+        <h3>3b. Date</h3>
+        <hr />
+        <input type="date" name="" id="" /><br />
+        <br />
+        <input type="datetime-local" name="" id="" /><br />
+        <br />
+        <h3>3c. Multiple Choice Input</h3>
+        <hr />
+        <label for="male">
+          Male
+          <input type="checkbox" name="male" id="" />
+        </label>
+        <label for="female">
+          Female
+          <input type="checkbox" name="female" id="" />
+        </label>
+        <br />
+        <br />
+        <label for="car"
+          >Car <input type="radio" name="car" id="car" /><br />
+        </label>
+        <label for="bike">
+          Bike
+          <input type="radio" name="bike" id="bike" /><br />
+        </label>
+        <label for="train">
+          Train <input type="radio" name="train" id="train" /><br />
+        </label>
+        <label for="plane">
+          Plane <input type="radio" name="plane" id="plane" /><br />
+        </label>
+        <br />
+        <select name="" id="">
+          <option value="">Select Tranport Mode:</option>
+          <option value="">Car</option>
+          <option value="">Bike</option>
+          <option value="">Train</option>
+        </select> <br> <br>
+         <select name="" id="">
+            <!-- <option value="">Select your Choice</option> -->
+            <optgroup value="Indian Manufacturers" label="Indian Manufacturers">
+              <option value="maruti">Maruti</option>
+              <option value="mahindra">Mahindra</option>
+              <option value="hindustan motors">Hindustan Motors</option>
+              <option value="tata motors">Tata Motors</option>
+            </optgroup>
+
+            <optgroup
+              value="Foreign Manufacturers"
+              label="Foreign Manufacturers"
+            >
+              <option value="" selected>Hyundai</option>
+              <option value="">Volvo</option>
+              <option value="">Toyoto</option>
+              <option value="">BMW</option>
+            </optgroup>
+          </select> <br> <br>
+  <form action="" method="get">
+    <h3>Drop down list with datalist tag</h3>
+  <label for="browser">Choose your preferred browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+  
+  </form>
+
+      </div><br>
+        <form action="">
+          <h3>Personal Detail Form</h3>
+          <label for="email">
+            Email ID
+            <input type="text" name="Email" value="" id="email" required />
+          </label>
+          <label for="pwd">
+            Password
+            <input
+              type="text"
+              name="Password"
+              value=""
+              id="pwd"
+              required
+              minlength="6"
+              maxlength="12"
+            />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
+
+        <br />
+        <br />
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            accusantium ipsam explicabo non impedit natus, voluptas sunt, magni
+            molestias voluptatum placeat, iste voluptatibus eius? Asperiores
+            quod atque praesentium quisquam quibusdam.
+          </p>
+        </div>
+        <h4>Legend Example:</h4>
+        <fieldset>
+          <legend>Personal Details:</legend>
+          <label for="3.1">
+            User Name
+            <input type="text" name="username" id="3.1" />
+          </label>
+          <br />
+          <br />
+          <label for="3.1"></label>
+          Password
+          <input type="text" name="pwd" id="pwd" />
+          <input type="button" value="Submit" />
+        </fieldset>
+      </div>
+
+      <div>
+
+      </div>
+        <h3>4. Frames</h3>
+        <hr />
+        <p>Not supported in HTML5</p>
+      <div>
+        <h3>5. Images</h3>
+        <hr />
+
+        <div>
+          
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVVmag19P8yWuaG6-mmyFpBqZMzmKKkPdv8BXsJ5pzFAQzv2kzDaceLr6NfSk5JIlAZ_U&usqp=CAU"
+            alt="electric pillar"
+            srcset=""
+            style="width: 450px; height: 650px"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1663156242158-5aff9a88b550?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt="hot ballon"
+            srcset=""
+            style="width: 450px; height: 650px"
+          />
+        </div>
+      </div>
+
+      <div>
+        <h3>6. Audio Video</h3>
+        <hr />
+      </div>
+
+      <div>
+        <h3>7. Links</h3>
+        <hr />
+        <div>
+          Netlify Site Link:
+          <a href="http://netlify.app" target="_blank">Netlify</a>
+        </div>
+      </div>
+      <div>
+        <h3>8. Lists</h3>
+        <hr />
+
+      </div>
+
+      <div>
+        <h3>9. Tables</h3>
+        <hr />
+
+      </div>
+
+      <div>
+        <h3>10. Semantic/Structural</h3>
+        <hr />
+
+      </div>
+
+      <div>
+        <h3>11. Meta Info</h3>
+        <hr />
+
+      </div>
+
+      <div>
+        <h3>12. Programming</h3>
+        <hr />
+
+      </div>
+
+    </div>
+  </body>
+</html>
